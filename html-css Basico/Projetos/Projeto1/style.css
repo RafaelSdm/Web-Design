@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.navegacao{
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+.navegacao-titulo{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.navegacao-titulo h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 7px rgb(163, 144, 181);
+}
+
+.navegacao nav ul{
+    text-align: right;
+   
+}
+
+
+
+.navegacao nav  li{
+    display: inline-block;
+    list-style: none;
+    
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.navegacao nav ul li  a{
+    background-color: rgba(204, 204, 204, 0.686);
+    display: block;
+    padding: 10px;
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+    text-transform: 12px;
+    letter-spacing: 2px;
+
+    
+    
+}
+
+
+.navegacao-titulo p{
+    background-color: rgba(0, 0, 0, 0.289);
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    border-radius: 50px;
+}
+
+.navegacao-titulo p:hover{
+    background-color: rgba(0, 0, 0, 0.467);
+    cursor: pointer;
+}
+
+.navegacao nav ul li a:hover{
+    background-color: #ccc;
+    color: rgb(255, 255, 255);
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.conteudo{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: auto;
+    
+}
+
+.conteudo-header{
+    border-bottom: 1px solid rgb(169, 81, 81);
+    padding: 10px;
+    background-color: #ccc;
+  
+}
+
+.conteudo-header h2{
+    margin: 0;
+}
+
+.rodape{
+    height: 80px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px red;
+    background-color: rgb(149, 147, 151);
+    line-height: 80px;
+}
+
+
+.card{
+    width: 31%;
+    float: left;
+    margin-left: 1%;
+}
+
+.card1, .card2{
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    
+}
+
+.card p{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
