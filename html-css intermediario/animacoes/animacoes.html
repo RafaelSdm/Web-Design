@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    @keyframes anda{
+        0%{
+            transform: translateX(0);
+        }
+
+        100%{
+            transform: translateX(400px);
+        }
+    }
+
+
+
+    #animar div{
+        width: 80px;
+        height: 50px;
+        border: 1px solid red;
+        
+    }
+
+    #animar div:nth-child(1){
+        animation: anda 2s;
+    }
+</style>
+<body>
+
+    <h2>Animation</h2>
+    <div id="animar">
+        <div>1</div>
+
+    </div>
+   
+    
+</body>
+</html>

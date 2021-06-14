@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+html{
+    font-family: sans-serif;
+
+}
+
+.clear:after, .row::after{
+    content: ' ';
+    display: block;
+    clear: both;
+
+}
+
+.icon-play{
+    height:5em ;
+    display: none;
+}
+.icon-play img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Oxygen", Arial, Helvetica, sans-serif;
+}
+
+
+/* inicio do trabalho da parte do header */ 
+
+.top-nav{
+    background-color: #612674;
+    text-align: center;
+
+
+}
+
+.top-logo{
+    text-align: center;
+
+}
+
+.top-header-logo{
+    margin: .5em;
+}
+
+.top-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+.top-nav a:hover{
+    background-color: #7d4291;
+}
+
+/* fim da parte do trabalhono header */
+
+
+/* inicio do trabalho sobre as sections */
+
+
+
+.button{
+    display: inline-block;
+    padding: .75em 2.5em;
+    background-color: rgb(0, 123, 255);
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: rgb(34, 108, 145);
+}
+
+.conteudo{
+    padding: 1em;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+.conteudo-title{
+    color: #612674;
+    font-size: 1.375em;
+    margin: 1.375;
+}
+
+.conteudo-subtitle{
+    color: rgb(53, 22, 116);
+    font-size: 1em;
+    line-height: 1.5;
+
+
+}
+
+.conteudo-meio{
+    padding: 2em;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.conteudo-meio-title{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: #7d4291;
+}
+
+.conteudo-meio p{
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.conteudo-meio i{
+    font-size: 4em;
+    color: #612674;
+}
+
+.conteudo-main{
+    padding:2em;
+
+}
+
+.conteudo-main-article p{
+    line-height: 1.2;
+}
+
+.conteudo-main-article{
+    margin-bottom: 3.5em;
+}
+
+.conteudo-main-article .conteudo-meio-title{
+    letter-spacing: .2em ;
+    color: blue;
+}
+
+
+.rodape{
+    background-color: #25303e;
+    color: rgb(174, 174, 174);
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.radape-menushare{
+    background-color: #303d4c;
+    padding: .5em;
+}
+
+.radape-menushare ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.radape-menushare li{
+    display: inline-block;
+    margin: 0 1em;
+
+}
+
+.radape-menushare a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* inicio das medias queries */
+
+@media screen and (min-width: 48.75em) {  /* 780px se a tela for maior que 780, vai ser a tela assim: */
+
+    .icon-play{
+         
+        display: block;
+    }
+
+    .top-header-logo{
+        float: left;
+    }
+
+    .top-nav{
+        background-color: transparent;
+        float: right;
+        margin-top: 30px;
+    }
+
+    .top-nav ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-nav li{
+        display: inline-block;
+    }
+
+    .top-nav a{
+        color: #7d4291;
+    }
+
+    .top-nav a:hover{
+        background-color: #ccc;
+    }
+
+    
+
+    .conteudo{
+        background-color: #521a66;
+        color: white;
+    }
+
+    .conteudo-title, .conteudo-subtitle{
+        color: white;
+    }
+
+
+
+    .col_1-4{
+        width: 44%;
+        margin: 3%;
+        float: left;
+    }
+
+
+    .conteudo-main-article .button{
+        float: right;
+    }
+
+
+    
+
+    
+}
+
+
+@media screen and (min-width:1000px) {
+
+    .conteudo{
+        background-color: #521a66;
+        background-image: url(../images/bg_topo_1198x670.jpg);
+        background-position: center bottom;
+        height: 20em;
+        padding-top: 15em;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    .conteudo{
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        padding: 19em 20em 10em;
+        background-position: center top;
+    }
+
+    .icon-play{
+        height:7em ;
+        display: block;
+    }
+
+
+    .col_1-4{
+        width: 23%;
+        margin: 1%;
+        float: left;
+        
+    }
+
+
+    .col_1-2{
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+
+    .conteudo-main-article .button{
+        float: left;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
